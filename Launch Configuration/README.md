@@ -1,5 +1,11 @@
 ```
-aws autoscaling create-launch-configuration --image-id AMIID --instance-type t2.micro --key-name KEYNAME --security-groups SECURITYGROUPID --user-data --launch-configuration-name autoscaleconfig
+aws autoscaling create-launch-configuration && \
+    --image-id AMIID && \
+    --instance-type t2.micro && \
+    --key-name KEYNAME && \
+    --security-groups SECURITYGROUPID && \
+    --user-data && \
+    --launch-configuration-name autoscaleconfig
 ```
 
 --image-id (string):
