@@ -10,4 +10,22 @@
   
   ## aws autoscaling create-auto-scaling-group
   
+  * - mandatory
   ## options:
+
+## --auto-scaling-group-name * (string):
+
+The name of the Auto Scaling group, minimum length 1
+
+
+## --max-size * (integer):
+
+The maximum size of the group.
+
+## --min-size * (integer):
+
+The minimum size of the group.
+
+## --vpc-zone-identifier
+
+A comma-separated list of subnet IDs for your virtual private cloud (VPC).
