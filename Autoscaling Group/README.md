@@ -8,9 +8,9 @@
     --vpc-zone-identifier SUBNET1,SUBNET2
   ```
   
-  ## aws autoscaling create-auto-scaling-group
+## aws autoscaling create-auto-scaling-group
   
-  * - mandatory
+'*' mandatory
   ## options:
 
 ## --auto-scaling-group-name * (string):
