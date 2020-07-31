@@ -29,3 +29,9 @@ The minimum size of the group.
 ## --vpc-zone-identifier
 
 A comma-separated list of subnet IDs for your virtual private cloud (VPC).
+
+Replace LOADBALANCERNAME and SUBNET with your data
+
+AWS Autoscaling Group official documentation:
+
+https://docs.aws.amazon.com/autoscaling/ec2/APIReference/API_CreateAutoScalingGroup.html
