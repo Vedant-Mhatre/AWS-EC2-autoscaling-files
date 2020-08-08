@@ -9,7 +9,9 @@ aws ec2 create-launch-template \
 ## aws ec2 create-launch-template
 
 --launch-template-data
+
 (Mandatory)ImageId
+
 (Mandatory)InstanceType
 
 
